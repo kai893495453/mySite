@@ -1,0 +1,18 @@
+body{font-family:"微软雅黑" !important;}
+.header{height:80px;}
+.header .icon{display:block;width:260px;height:60px;background:url(../images/icon.png) no-repeat 0px 0px;margin-top:10px;}
+.header .nav{margin-top:30px;}
+.header .nav a{float: left;text-align: center;margin-left:20px;margin-right:20px;color:#333;}
+.header .nav a:hover{text-decoration: none;color:#337ab7;}
+.header .nav .navTitle{display:block;font-size:18px;}
+.header .nav .navDetail{display:none;}
+
+.pageTitle{font-size:16px;font-weight:normal;font-family:"微软雅黑";margin:0;padding:0;padding-bottom:8px;border-bottom:1px solid #ccc;}
+.pageTitle .glyphicon{color:#337ab7;padding-right:4px;}
+.pageList{margin-top:2px;}
+.pageList .item a{text-decoration: none;color:#333;line-height:32px;width:100%;display:block;border-bottom:1px solid #eee;}
+.pageList .item a:hover{color:#337ab7;}
+.pageList .item .iconfont{background-color:#337ab7;border-radius:20px;width:5px;height:5px;line-height:32px;font-size:16px;display:inline-block;margin-right:10px;}
+
+/*脚部CSS*/
+.footer{margin:0px auto;text-align: center;font-size:12px;color:#333;line-height:32px;padding:10px 0px;}

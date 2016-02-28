@@ -1,0 +1,25 @@
+.productBox{width:100%;background-color:#F1F0EE;margin-bottom:20px;}
+.productBox .productTitle{border-bottom:1px solid #fff;overflow: hidden;}
+.productBox .productTitle p{background-color:#222;text-align: center;color:#fff;font-weight: bold;padding:5px 10px;width:120px;height:30px;margin:20px 0px 0px;box-shadow:#999 4px 5px 1px}
+.productBox .productTitle p span{color:#337ab7;}
+.productBox .productList{margin-top:8px;margin-bottom:0px;}
+.productBox .productList .item{float: left;margin:3px 2px;padding:5px;text-align: center;color:#F1F0EE;}
+.productBox .productList .item:hover{background-color:#aaa;animation:hoverBackground 0.5s;-moz-animation:hoverBackground 0.5s; /* Firefox */-webkit-animation:hoverBackground 0.5s; /* Safari and Chrome */-o-animation:hoverBackground 0.5s; /* Opera */animation-fill-mode : forwards}
+.productBox .productList .item a{display:block;color:#111;font-size:12px;text-decoration: none;}
+.productBox .productList .item a img{width:174px;height:118px;display:block;padding:4px;background-color:#fff;box-shadow:0px 0px 2px rgba(0,0,0,.5)}
+.productBox .productList .item .itemDetail{display: block;padding-top:10px;}
+@keyframes hoverBackground{from {background:#F1F0EE;}to {background:#999;color:#fff;}}
+@-moz-keyframes hoverBackground /* Firefox */{from {background:#F1F0EE;}to {background:#999;color:#fff;}}
+@-webkit-keyframes hoverBackground /* Safari and Chrome */{from {background:#F1F0EE;}to {background:#999;color:#fff;}}
+@-o-keyframes hoverBackground /* Opera */{from {background:#F1F0EE;}to {background:#999;color:#fff;}}
+
+.carousel-inner .item img{height:290px;}
+.carousel .carousel-control{color:#fff;background:none;}
+.carousel .carousel-control:hover{opacity:1;}
+
+.aboutMe{width:65%;font-size:12px;color:#666;padding-left:20px;margin-top:12px;}
+.contactMe{padding-left:20px;}
+.contactMe img{width:250px;display: block;}
+.contactMe span{padding-left:84px;}
+.friendLinks{padding-left:20px;width:80%;}
+.friendLinks a{float: left;margin:5px;padding:10px;}
